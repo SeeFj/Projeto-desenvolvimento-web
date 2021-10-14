@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" type="imagex/png" href="D:\Downloads 2\TLT.ico">
+  <title>TL - Login</title>
+  <style>
+    body{
+      animation: gradient 50s ease alternate infinite;
+      font-family:sans-serif;
+      background-size: 300% 300%;
+      background-image: linear-gradient(90deg,orange, rgb(154, 221, 221), rgb(182, 214, 0), yellow)
+    }
+    .Logo{
+      position: absolute;
+      top: 13.5%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .Telal{
+      background-color: rgba(0, 0, 0, 0.9);
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding: 80px;
+      border-radius: 15px;
+      color: white;
+    }
+    .Creditos{
+      position: absolute;
+      top: 95%;
+      left: 91.5%;
+      color: rgb(6, 137, 197);
+      font-family: Verdana, Tahoma, sans-serif;
+      font-size: 12px;
+    }
+    input{
+      padding: 15px;
+      border: none;
+      outline: none;
+      font-size: 15px;
+      width: 87%;
+    }
+    button{
+      background-color: dodgerblue;
+      border: none;
+      padding: 15px;
+      width: 100%;
+      border-radius: 10px;
+      font-size: medium;
+      color: white;
+      cursor: pointer;
+      transition: background 1s;
+    }
+    button:hover{
+      background-color: deepskyblue;
+    }
+    @keyframes gradient {
+    0% {
+    background-position: 0 50%;
+    }
+
+    50% {
+    background-position: 100% 50%;
+    }
+
+    100% {
+    background-position: 0 50%;
+    }
+  }
+  </style>
+</head>
+<body>
+  <div class="Logo"> <img src="D:\Downloads 2\TLrgt.png" height="150"></div>
+  <div class="Telal">
+    <h1>Login</h1>
+    <input type="text" placeholder="Nome">
+    <br><br>
+    <input type="password" placeholder="Senha">
+    <br><br>
+    <button>Logar</button>
+    <br><br>
+    <p class="message">Não é registrado? <a href="#">Crie uma conta</a></p>
+  </div>
+</body>
+</html>
